@@ -1,0 +1,195 @@
+/* FONTS */
+@font-face {
+    font-family: GothamRounded;
+    src: url(assets/GothamRoundedMedium.otf);
+}
+@font-face {
+    font-family: GothamRoundedBook;
+    src: url(assets/GothamRoundedBook.otf);
+}
+/* END FONTS */
+
+/* BASE STYLES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto; /* центрирование */
+}
+
+header {
+    width: 1280px;
+    height: 745px;
+    background: url(assets/Livello1.png);
+}
+
+.get_started {
+    background-color: #f5f6f7;
+    width: 1280px;
+    height: 494px;
+}
+
+.learn_more {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 558px;
+}
+
+.community {
+    background-color: #f5f6f7;
+    width: 1280px;
+    height: 483px;
+}
+
+.subscribe {
+    background: url(assets/Livello3.png);
+    width: 1280px;
+    height: 790px;
+}
+
+.download {
+    background-color: #f5f6f7;
+    width: 1280px;
+    height: 396px;
+}
+
+footer{
+    background-color: #ffffff;
+    width: 1280px;
+    height: 129px;
+}
+/* END BASE STYLE */
+
+/* NAVIGATION */
+nav {
+    position: relative;
+    width: 780px;
+    height: 85px;
+    margin: 0 auto;
+    top: 31px;
+    left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    font-family: GothamRounded;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.home {
+}
+
+.photo_app {
+    left: 68px; 
+}
+
+.camera_icon {
+    display: inline-block;
+    position: relative;
+    width: 53px;
+    height: 55px;
+    top: 9px;
+    left: 170px; 
+    background: url(assets/camera_ico.png);
+}
+
+.design {
+    left: 268px; 
+}
+
+.download_nav {
+    left: 348px; 
+}
+/* END NAVIGATION */
+
+/* HEADER CENTER */
+.header_center {
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+    height: 160px;
+    width: 475px;
+    font-family: GothamRounded;
+    color: #ffffff;
+    text-align: left;
+}
+
+.header_center h1 {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
+.header_center p {
+    font-family: GothamRoundedBook;
+    position: relative;
+    width: 480px;
+    font-weight: 500;
+    top: 20px;
+    left: 70px;
+    letter-spacing: 2px;
+}
+
+.header_btn {
+    position: relative;
+    top: 40px;
+    left: 150px;
+    font-family: GothamRounded;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 49px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: rgb(14, 161, 134);
+    width: 166px;
+    height: 49px;
+}
+/* END HEADER CENTER */
+
+/* HEADER BOTTOM */
+.header_bottom {
+    width: 118px;
+    height: 48px;
+    position: relative;
+    margin: 0 auto;
+    top: 455px;
+    left: 12px;
+}
+
+.twitter_ico {
+    display: inline-block;
+    background: url(assets/twitter_ico.png);
+    width: 23px;
+    height: 20px;
+}
+
+.flickr_ico {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    background: url(assets/flickr_ico.png);
+    width: 23px;
+    height: 20px;
+}
+
+.dribbble_ico {
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    background: url(assets/dribbble_ico.png);
+    width: 20px;
+    height: 21px;
+}
+/* END HEADER BOTTOM */
