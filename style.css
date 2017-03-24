@@ -361,7 +361,7 @@ nav a {
     top: 7px;
     left: 19px;
     display: inline-block;
-    width: 10px;
+    width: 11px;
     height: 16px;
     background: url(assets/RightArrow.png);
 }
@@ -408,5 +408,54 @@ nav a {
     text-align: center;
     letter-spacing: 2px;
 }
+
+.right_community .slider_photos {
+    position: relative;
+    left: 400px;
+    top: -70px;
+    width: 766px;
+    height: 244px;
+}
+
+.right_community .slider_photo_left {
+    width: 370px;
+    height: 244px;
+    background: url(assets/Livello5.png);
+    display: inline-block;
+}
+
+.right_community .slider_photo_right {
+    position: relative;
+    left: 20px;
+    width: 371px;
+    height: 244px;
+    background: url(assets/Livello6.png);
+    display: inline-block;
+}
+
+.right_community .arrows {
+    position: relative;
+    width: 25px;
+    height: 16px;
+    top: -80px;
+    left: 1120px;
+}
+
+.arrows .left_arrow {
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    background: url(assets/LeftArrow.png);
+}
+
+.arrows .right_arrow {
+    position: relative;
+    left: 15px;
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    background: url(assets/RightArrow.png);
+}
+
 
 /* END COMMUNITY SECTION */
