@@ -533,3 +533,46 @@ nav a {
     background: url(assets/check.png);
 }
 /* END SUBSCRIBE SECTION */
+
+/* DOWNLOAD SECTION */
+.download .download_attrs {
+    position: relative;
+    top: 95px;
+    left: 220px;
+    width: 886px;
+    height: 226px;
+}
+
+.download_attrs .download_text {
+    width: 848px;
+    height: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.download_text h3 {
+    position: relative;
+    top: 0;
+    left: 334px;
+    font-family: GothamRounded;
+    color: #373737;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    width: 200px;
+}
+
+.download_text p {
+    position: relative;
+    top: 15px;
+    font-family: GothamRounded;
+    color: #373737;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+/* END DOWNLOAD SECTION */
+
+
