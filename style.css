@@ -573,6 +573,91 @@ nav a {
     text-align: center;
     letter-spacing: 1.5px;
 }
+
+.download_btns {
+    position: relative;
+    width: 634px;
+    height: 77px;
+}
+
+.download_btns .apple_btn {
+    position: relative;
+    left: 110px;
+    top: 46px;
+}
+
+.download_btns .android_btn {
+    position: relative;
+    left: 425px;
+    top: -31px;
+}
+
+.apple_btn .apple_btn_left,
+.android_btn .android_btn_left {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #1abc9c;
+    width: 240px;
+    height: 56px; 
+}
+
+.apple_btn .apple_btn_left p,
+.android_btn .android_btn_left p {
+    text-transform: uppercase;
+    font-family: GothamRoundedBook;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.apple_btn .apple_btn_right {
+    position: relative;
+    top: 1px;
+    left: -5px;
+    display: inline-block;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #16a085;
+    width: 56px;
+    height: 56px;
+}
+
+.apple_btn_right .apple_logo {
+    position: relative;
+    margin: 15px auto;
+    background-color: #ffffff;
+    width: 21px;
+    height: 24px;
+    background: url(assets/appleLogo.png);
+}
+
+.android_btn .android_btn_right {
+    position: relative;
+    top: 1px;
+    left: -5px;
+    display: inline-block;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #16a085;
+    width: 56px;
+    height: 56px;
+}
+
+.android_btn_right .android_logo {
+    position: relative;
+    margin: 15px auto;
+    background-color: #ffffff;
+    width: 25px;
+    height: 29px;
+    background: url(assets/androidLogo.png);
+}
 /* END DOWNLOAD SECTION */
 
 
