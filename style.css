@@ -312,6 +312,7 @@ nav a {
     letter-spacing: 1.75px;
     text-align: left;
     padding-bottom: 50px;
+    width: 429px;
 }
 
 .right_learn_more b {
@@ -660,4 +661,49 @@ nav a {
 }
 /* END DOWNLOAD SECTION */
 
+/* FOOTER */
+footer .left_side {
+    position: relative;
+    top: 45px;
+    left: 124px;
+    width: 412px;
+    height: 80px;
+}
 
+.left_side .links {
+    font-family: GothamRounded;
+    color: #373737;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.links p {
+    display: inline-block;
+    font-family: GothamRounded;
+    color: #16a085;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.left_side .copy {
+    position: relative;
+    top: 20px;
+    font-family: GothamRounded;
+    color: #373737;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.right_side {
+    position: relative;
+    right: -1115px;
+    top: -40px;
+    width: 53px;
+    height: 55px;
+    background: url(assets/Livello2Copy.png);
+}
+/* END FOOTER */
