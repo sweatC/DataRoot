@@ -456,6 +456,80 @@ nav a {
     height: 16px;
     background: url(assets/RightArrow.png);
 }
-
-
 /* END COMMUNITY SECTION */
+
+/* SUBSCRIBE SECTION */
+.subscribe .subscribe_center {
+    position: relative;
+    top: 350px;
+    left: 400px;
+    width: 500px;
+    height: 126px;
+}
+
+.subscribe_center h2 {
+    font-family: GothamRounded;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.subscribe_center .subscriber {
+    position: relative;
+    top: 30px;
+    left: 68px;
+    width: 370px;
+    height: 60px;
+}
+
+.subscriber input {
+    /* убираем стандартные */
+    border:none;
+    background:none;
+    outline:none;
+    padding:0;
+    /*  стили с input */
+    position: relative;
+    padding-left: 20px;
+    top: -25px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #ffffff;
+    width: 280px;
+    height: 60px;
+    display: inline-block;
+}
+
+.subscriber input[type="text"] {
+    font-family: GothamRounded;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subscriber .subscribe_btn {
+    position: relative;
+    left: -10px;
+    display: inline-block;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #16a085;
+    width: 63px;
+    height: 60px;
+}
+
+.subscribe_btn .check {
+    position: relative;
+    margin: 22px auto;
+    background-color: #ffffff;
+    width: 20px;
+    height: 16px;
+    background: url(assets/check.png);
+}
+/* END SUBSCRIBE SECTION */
