@@ -1,3 +1,3 @@
 # DataRoot
 First test task.
-![alt text](AbstractFactory/AbstractFactory.PNG)
+![alt text](assets/header.png)
